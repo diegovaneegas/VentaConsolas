@@ -115,6 +115,9 @@ namespace Persistencia.Migrations
                     b.Property<string>("Sucursal")
                         .HasColumnType("nvarchar(max)");
 
+                    b.Property<bool>("primerIngreso")
+                        .HasColumnType("bit");
+
                     b.HasKey("Id");
 
                     b.ToTable("Empleados");

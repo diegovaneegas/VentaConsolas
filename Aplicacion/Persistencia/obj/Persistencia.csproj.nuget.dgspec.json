@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\User\\Documents\\ProyectoGrupo61\\aplicacion\\Persistencia\\Persistencia.csproj": {}
+    "C:\\Users\\User\\Documents\\ProyectoGrupo61\\Aplicacion\\Persistencia\\Persistencia.csproj": {}
   },
   "projects": {
-    "C:\\Users\\User\\Documents\\ProyectoGrupo61\\aplicacion\\Dominio\\Dominio.csproj": {
+    "C:\\Users\\User\\Documents\\ProyectoGrupo61\\Aplicacion\\Dominio\\Dominio.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\User\\Documents\\ProyectoGrupo61\\aplicacion\\Dominio\\Dominio.csproj",
+        "projectUniqueName": "C:\\Users\\User\\Documents\\ProyectoGrupo61\\Aplicacion\\Dominio\\Dominio.csproj",
         "projectName": "Dominio",
-        "projectPath": "C:\\Users\\User\\Documents\\ProyectoGrupo61\\aplicacion\\Dominio\\Dominio.csproj",
+        "projectPath": "C:\\Users\\User\\Documents\\ProyectoGrupo61\\Aplicacion\\Dominio\\Dominio.csproj",
         "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\User\\Documents\\ProyectoGrupo61\\aplicacion\\Dominio\\obj\\",
+        "outputPath": "C:\\Users\\User\\Documents\\ProyectoGrupo61\\Aplicacion\\Dominio\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -57,14 +57,14 @@
         }
       }
     },
-    "C:\\Users\\User\\Documents\\ProyectoGrupo61\\aplicacion\\Persistencia\\Persistencia.csproj": {
+    "C:\\Users\\User\\Documents\\ProyectoGrupo61\\Aplicacion\\Persistencia\\Persistencia.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\User\\Documents\\ProyectoGrupo61\\aplicacion\\Persistencia\\Persistencia.csproj",
+        "projectUniqueName": "C:\\Users\\User\\Documents\\ProyectoGrupo61\\Aplicacion\\Persistencia\\Persistencia.csproj",
         "projectName": "Persistencia",
-        "projectPath": "C:\\Users\\User\\Documents\\ProyectoGrupo61\\aplicacion\\Persistencia\\Persistencia.csproj",
+        "projectPath": "C:\\Users\\User\\Documents\\ProyectoGrupo61\\Aplicacion\\Persistencia\\Persistencia.csproj",
         "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\User\\Documents\\ProyectoGrupo61\\aplicacion\\Persistencia\\obj\\",
+        "outputPath": "C:\\Users\\User\\Documents\\ProyectoGrupo61\\Aplicacion\\Persistencia\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -78,8 +78,8 @@
         "frameworks": {
           "netstandard2.1": {
             "projectReferences": {
-              "C:\\Users\\User\\Documents\\ProyectoGrupo61\\aplicacion\\Dominio\\Dominio.csproj": {
-                "projectPath": "C:\\Users\\User\\Documents\\ProyectoGrupo61\\aplicacion\\Dominio\\Dominio.csproj"
+              "C:\\Users\\User\\Documents\\ProyectoGrupo61\\Aplicacion\\Dominio\\Dominio.csproj": {
+                "projectPath": "C:\\Users\\User\\Documents\\ProyectoGrupo61\\Aplicacion\\Dominio\\Dominio.csproj"
               }
             }
           }

@@ -37,6 +37,8 @@ namespace Presentacion.Pages.CrudEmpleado
                 return Page();
             }
 
+            Empleado.primerIngreso = true; //Relacion primer ingreso en el login
+
             _context.Empleados.Add(Empleado);
             await _context.SaveChangesAsync();
 

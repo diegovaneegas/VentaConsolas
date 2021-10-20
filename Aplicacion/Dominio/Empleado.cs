@@ -12,5 +12,6 @@ namespace Dominio
         /*Relacion de agregación, solo se declara el atributo dentro de la clase (relacion de composición si necesita constructor)*/
         public string Password {get; set;}
         public bool AccesoReportes {get; set;}
+        public bool primerIngreso {set; get;}
     }
 }
