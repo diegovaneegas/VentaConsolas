@@ -1,0 +1,4 @@
+C:\Users\User\Documents\ProyectoGrupo61\Aplicacion\Dominio\obj\Debug\netstandard2.1\Dominio.csprojAssemblyReference.cache
+C:\Users\User\Documents\ProyectoGrupo61\Aplicacion\Dominio\obj\Debug\netstandard2.1\Dominio.AssemblyInfoInputs.cache
+C:\Users\User\Documents\ProyectoGrupo61\Aplicacion\Dominio\obj\Debug\netstandard2.1\Dominio.AssemblyInfo.cs
+C:\Users\User\Documents\ProyectoGrupo61\Aplicacion\Dominio\obj\Debug\netstandard2.1\Dominio.csproj.CoreCompileInputs.cache

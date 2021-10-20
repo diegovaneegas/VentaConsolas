@@ -1,0 +1,67 @@
+@page
+@model Presentacion.Pages.CrudEmpleado.DetailsModel
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h1>Details</h1>
+
+<div>
+    <h4>Empleado</h4>
+    <hr />
+    <dl class="row">
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Empleado.Nombre)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Empleado.Nombre)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Empleado.Apellido)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Empleado.Apellido)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Empleado.Cedula)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Empleado.Cedula)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Empleado.CodigoEmpleado)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Empleado.CodigoEmpleado)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Empleado.NombreRol)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Empleado.NombreRol)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Empleado.Sucursal)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Empleado.Sucursal)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Empleado.Password)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Empleado.Password)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Empleado.AccesoReportes)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Empleado.AccesoReportes)
+        </dd>
+    </dl>
+</div>
+<div>
+    <a asp-page="./Edit" asp-route-id="@Model.Empleado.Id">Edit</a> |
+    <a asp-page="./Index">Back to List</a>
+</div>
