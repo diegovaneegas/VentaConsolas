@@ -1,7 +1,7 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\User\\Documents\\ProyectoGrupo61\\Aplicacion\\Presentacion\\Presentacion.csproj": {}
+    "C:\\Users\\User\\Documents\\ProyectoGrupo61\\Aplicacion\\presentacion\\Presentacion.csproj": {}
   },
   "projects": {
     "C:\\Users\\User\\Documents\\ProyectoGrupo61\\Aplicacion\\Dominio\\Dominio.csproj": {
@@ -133,14 +133,14 @@
         }
       }
     },
-    "C:\\Users\\User\\Documents\\ProyectoGrupo61\\Aplicacion\\Presentacion\\Presentacion.csproj": {
+    "C:\\Users\\User\\Documents\\ProyectoGrupo61\\Aplicacion\\presentacion\\Presentacion.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\User\\Documents\\ProyectoGrupo61\\Aplicacion\\Presentacion\\Presentacion.csproj",
+        "projectUniqueName": "C:\\Users\\User\\Documents\\ProyectoGrupo61\\Aplicacion\\presentacion\\Presentacion.csproj",
         "projectName": "Presentacion",
-        "projectPath": "C:\\Users\\User\\Documents\\ProyectoGrupo61\\Aplicacion\\Presentacion\\Presentacion.csproj",
+        "projectPath": "C:\\Users\\User\\Documents\\ProyectoGrupo61\\Aplicacion\\presentacion\\Presentacion.csproj",
         "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\User\\Documents\\ProyectoGrupo61\\Aplicacion\\Presentacion\\obj\\",
+        "outputPath": "C:\\Users\\User\\Documents\\ProyectoGrupo61\\Aplicacion\\presentacion\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config"

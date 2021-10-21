@@ -171,3 +171,8 @@ C:\Users\User\Documents\ProyectoGrupo61\aplicacion\Presentacion\obj\Debug\netcor
 C:\Users\User\Documents\ProyectoGrupo61\aplicacion\Presentacion\obj\Debug\netcoreapp3.1\Razor\Pages\Login\Login.cshtml.g.cs
 C:\Users\User\Documents\ProyectoGrupo61\Aplicacion\Presentacion\obj\Debug\netcoreapp3.1\Razor\Pages\CambiarContrasena\CambiarContrasena.cshtml.g.cs
 C:\Users\User\Documents\ProyectoGrupo61\Aplicacion\Presentacion\obj\Debug\netcoreapp3.1\Razor\CerrarSesion.cshtml.g.cs
+C:\Users\User\Documents\ProyectoGrupo61\Aplicacion\presentacion\obj\Debug\netcoreapp3.1\Razor\Pages\CrudConsola\Create.cshtml.g.cs
+C:\Users\User\Documents\ProyectoGrupo61\Aplicacion\presentacion\obj\Debug\netcoreapp3.1\Razor\Pages\CrudConsola\Delete.cshtml.g.cs
+C:\Users\User\Documents\ProyectoGrupo61\Aplicacion\presentacion\obj\Debug\netcoreapp3.1\Razor\Pages\CrudConsola\Details.cshtml.g.cs
+C:\Users\User\Documents\ProyectoGrupo61\Aplicacion\presentacion\obj\Debug\netcoreapp3.1\Razor\Pages\CrudConsola\Edit.cshtml.g.cs
+C:\Users\User\Documents\ProyectoGrupo61\Aplicacion\presentacion\obj\Debug\netcoreapp3.1\Razor\Pages\CrudConsola\Index.cshtml.g.cs

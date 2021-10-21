@@ -4,11 +4,27 @@
 @{
     ViewData["Title"] = "Index";
 }
+<style>
 
-<h1>Index</h1>
+body{
+    background-color: #FFC107;
+    }
+.boton_crear{
+    background-color: #2940D3;
+    color: white;
+    font-size: 24px;
+}
+
+.table{
+    width: 110%;
+}
+
+</style>
+
+<h1>Añadir empleado</h1>
 
 <p>
-    <a asp-page="Create">Create New</a>
+    <a asp-page="Create" class="boton_crear">Añadir Consola</a>
 </p>
 <table class="table">
     <thead>

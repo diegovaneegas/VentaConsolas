@@ -1,0 +1,95 @@
+@page
+@model Presentacion.Pages.CrudConsola.IndexModel
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<style>
+
+body{
+    background-color: #FFC107;
+    }
+.boton_crear{
+    background-color: #2940D3;
+    color: white;
+    font-size: 24px;
+}
+
+.table{
+    width: 110%;
+}
+
+</style>
+
+<h1>Consolas Gamers</h1>
+
+<p>
+    <a asp-page="Create" class="boton_crear">Crear Consola</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Consolas[0].Nombre)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Consolas[0].Version)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Consolas[0].Fabricante)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Consolas[0].TipoAlmacenamiento)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Consolas[0].VelocidadProcesador)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Consolas[0].precioVenta)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Consolas[0].precioCompra)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Consolas[0].VideoJuego)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model.Consolas) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Nombre)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Version)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Fabricante)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.TipoAlmacenamiento)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.VelocidadProcesador)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.precioVenta)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.precioCompra)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.VideoJuego)
+            </td>
+            <td>
+                <a asp-page="./Edit" asp-route-id="@item.Id">Edit</a> |
+                <a asp-page="./Details" asp-route-id="@item.Id">Details</a> |
+                <a asp-page="./Delete" asp-route-id="@item.Id">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
